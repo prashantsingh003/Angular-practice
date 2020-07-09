@@ -1,1 +1,13 @@
 <p>practice 2 works</p>
+<label>Enter value to set username</label>
+<input 
+    type="text"
+    class="form-control"
+    (blur)="setUsername($event)">
+<p>the username is {{user_Name}}</p>
+<button [disabled]="checkUsernameStatus()" (click)="resetingUsername()">Remove Username</button>
+
+<input 
+  type='text'
+  class='form-control'
+  [(ngModel)]='k'>
