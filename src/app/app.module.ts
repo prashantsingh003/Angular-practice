@@ -8,12 +8,19 @@ import { FormsModule} from '@angular/forms';
 import { Practice2Component } from './practice2/practice2.component';
 import { Practice3Component } from './practice3/practice3.component';
 import { Practice4Component } from './practice4/practice4.component';
+import { EvenComponent } from "./practice4/even/even.component";
+import { OddComponent } from "./practice4/odd/odd.component";
+import { GameControlComponent } from "./practice4/game-control/game-control.component";
+
 @NgModule({
   declarations: [
     AppComponent,
     Practice2Component,
     Practice3Component,
-    Practice4Component
+    Practice4Component,
+    OddComponent,
+    EvenComponent,
+    GameControlComponent
   ],
   imports: [
     FormsModule,

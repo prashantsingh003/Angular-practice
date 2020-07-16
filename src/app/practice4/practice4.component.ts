@@ -7,7 +7,18 @@ import { Component } from "@angular/core";
 })
 
 export class Practice4Component{
+    i:number=0;
+    evenElements:number[]=[];
+    oddElements:number[]=[];
+
     constructor(){
-        
+    }
+
+    gameControlNumber(k){
+        this.i=k;
+        if(k%2==0)
+            this.evenElements.push(k);
+        else
+            this.oddElements.push(k);
     }
 }
