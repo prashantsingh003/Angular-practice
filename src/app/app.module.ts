@@ -7,11 +7,13 @@ import { AppComponent } from './app.component';
 import { FormsModule} from '@angular/forms';
 import { Practice2Component } from './practice2/practice2.component';
 import { Practice3Component } from './practice3/practice3.component';
+import { Practice4Component } from './practice4/practice4.component';
 @NgModule({
   declarations: [
     AppComponent,
     Practice2Component,
-    Practice3Component
+    Practice3Component,
+    Practice4Component
   ],
   imports: [
     FormsModule,
