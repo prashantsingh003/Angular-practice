@@ -11,6 +11,7 @@ import { Practice4Component } from './practice4/practice4.component';
 import { EvenComponent } from "./practice4/even/even.component";
 import { OddComponent } from "./practice4/odd/odd.component";
 import { GameControlComponent } from "./practice4/game-control/game-control.component";
+import { Practice5Component } from "./practice5/practice5.component";
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { GameControlComponent } from "./practice4/game-control/game-control.comp
     Practice2Component,
     Practice3Component,
     Practice4Component,
+    Practice5Component,
     OddComponent,
     EvenComponent,
     GameControlComponent
